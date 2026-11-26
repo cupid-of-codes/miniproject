@@ -1,0 +1,28 @@
+# Environment & secrets
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data & cache artifacts (runtime generated)
+data/cache/*.json
+data/processed/*.parquet
+data/processed/*.csv
+data/*.db
+logs/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
